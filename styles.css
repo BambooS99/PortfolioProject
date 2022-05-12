@@ -1,7 +1,33 @@
+@media only screen and (min-width:350px) { /* This part is for the mobile devices*/
+    #paragraph {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media only screen and (min-width: 700px) { /* This part is for desktop*/
+    #paragraph {
+       padding-left: 30%;
+       padding-right: 30%;
+    }
+ }
+
+
+ 
+
+
+
 * {
     margin:0;
     padding:0;
     font-family: 'Playfair Display', serif;
+}
+
+#banner {
+    padding-top: 50px;
+    height: 50px;
+    width: 100%;
+    background-color:#a5bbd2;
 }
 #title{
     text-align: center;
@@ -14,6 +40,7 @@
   
 #topleft{
     font-family: 'Playfair Display', serif;
+    margin-left: 2%;
 }
 
 .container {
@@ -37,6 +64,7 @@ nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    padding-right: 2%;
 }
 .card{
     display: inline;
@@ -47,6 +75,7 @@ nav{
   float:left;
   padding-bottom: 250px;
   padding-left: 25px;
+  background-color:#a5bbd2;
 }
 
 #About{
@@ -73,8 +102,6 @@ body {
 }
 #paragraph{ /*About Me Paragraph*/
     text-align:left;
-    padding-left: 500px;
-    padding-right: 500px;
     font-size: 18px;
     line-height: 26px;
     font-family: 'Montserrat', sans-serif;
